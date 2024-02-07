@@ -1,1 +1,25 @@
+html,body,
+#map {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+.search-control {
+    cursor: pointer;
+    text-align: right; /* Aligns the search icon to the right */
+}
 
+.search-control .fa-search {
+    color: #333; /* Icon color */
+    font-size: 1.5em; /* Icon size */
+    opacity: 1; /* Full opacity */
+    background: none; /* No background */
+}
+
+#searchInput {
+    display: none; /* Initially hidden */
+    margin-top: 5px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded borders */
+}
